@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 700px;
+    background: linear-gradient(to bottom, #68EACC 0%, #00CCFF 100%);
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: 100px auto;
+    background: #0099FF;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+#items {
+    padding: 5px;
+    width: 600px;
+    height: 45px;
+    resize: none;
+}
+
+.inputField {
+    display: flex;
+}
+
+.searchField {
+    display: flex;
+}
+
+#search {
+    padding: 5px;
+    width: 600px;
+    height: 45px;
+    resize: none;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    margin-right: 5px;
+}
+
+.btn-primary-addsearch {
+    margin-left: 10px;
+    width: 80px;
+}
+
+.btn-danger-clearall {
+    margin-left: 610px;
+}
+/*#drawTable {*/
+/*     line-height: 50px;*/
+/*}*/
+
